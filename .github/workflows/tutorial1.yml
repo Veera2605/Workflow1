@@ -6,14 +6,14 @@ jobs:
     name: job1
     runs-on: ubuntu-latest
     steps:
-      - name: step1
+      - name: step 1
         run: echo "Hello from job1"
 
   job2:
     name: job2
     runs-on: windows-latest
     steps:
-      - name: step2
+      - name: step 2
         run: echo " hellow from job 2"
 
   job3:
@@ -21,3 +21,9 @@ jobs:
     steps:
       - name: step 3
         run: echo "hello from job 3"
+
+  job4:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: step 4
+        run: echo "hello from job 4"      
